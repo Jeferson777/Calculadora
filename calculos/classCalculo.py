@@ -31,6 +31,3 @@ class Calculos:
 
     def potenciacao(self):
         return self.num1 ** self.num2
-
-
-

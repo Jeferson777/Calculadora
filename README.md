@@ -19,4 +19,4 @@ py -3 -m venv .venv
 pip install -r requeriments-dev.txt
 }'''
 
-
+[![Build Status](https://travis-ci.org/Jeferson777/Calculadora.svg?branch=principal)](https://travis-ci.org/Jeferson777/Calculadora)

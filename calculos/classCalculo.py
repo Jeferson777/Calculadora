@@ -23,14 +23,11 @@ class Calculos:
     def dividir(self):
         return self.num1 / self.num2
 
-    def quocienteDivisao(self):
+    def quociente(self):
         return self.num1 // self.num2
 
-    def restoDivisao(self):
+    def resto(self):
         return self.num1 % self.num2
 
     def potenciacao(self):
         return self.num1 ** self.num2
-
-
-

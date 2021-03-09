@@ -1,0 +1,10 @@
+language: python
+dist: xenial
+sudo: true
+
+python:
+  - 3.9
+install:
+  - pip install -q -r requirements-dev.txt
+script:
+  - flake8

@@ -23,8 +23,8 @@ elif operador == '*':
 elif operador == '/':
     print(Calculos.dividir(soma))
 elif operador == '//':
-    print(Calculos.quocienteDivisao(soma))
+    print(Calculos.quociente(soma))
 elif operador == '%':
-    print(Calculos.restoDivisao(soma))
+    print(Calculos.resto(soma))
 else:
     print(Calculos.potenciacao(soma))

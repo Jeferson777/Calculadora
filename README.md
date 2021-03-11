@@ -7,6 +7,11 @@ Objetivos de estudos, seguindo as boas práticas do curso PythonPro:
 2. Testar os comandos de GIT;
 3. No decorrer, desenvolver uma 'interface' de interação.
 
+[![Build Status](https://travis-ci.org/Jeferson777/Calculadora.svg?branch=principal)](https://travis-ci.org/Jeferson777/Calculadora)
+[![Updates](https://pyup.io/repos/github/Jeferson777/Calculadora/shield.svg)](https://pyup.io/repos/github/Jeferson777/Calculadora/)
+[![Python 3](https://pyup.io/repos/github/Jeferson777/Calculadora/python-3-shield.svg)](https://pyup.io/repos/github/Jeferson777/Calculadora/)
+
+
 *Versão: Python 3.9
 
 *Instalação Python e dependências:
@@ -17,4 +22,3 @@ py -3 -m venv .venv
 pip install -r requeriments-dev.txt
 }'''
 
-[![Build Status](https://travis-ci.org/Jeferson777/Calculadora.svg?branch=principal)](https://travis-ci.org/Jeferson777/Calculadora)

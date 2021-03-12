@@ -21,6 +21,6 @@ Objetivos de estudos, seguindo as boas práticas do curso PythonPro:
 '''Console:{
 py -3 -m venv .venv
 .venv\Scripts\activate
-pip install -r requeriments-dev.txt
+pip install -r requirements-dev.txt
 }'''
 

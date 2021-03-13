@@ -4,6 +4,7 @@ Aplicação Calculadora.
 
 # Importando um módulo com uma Classe do pacote calculo:
 from calculos.classCalculo import Calculos
+# from calculos.classCalculo import Calculos
 
 # Recebendo entrada de dados:
 a = int(input('Insira um número: '))
@@ -26,5 +27,7 @@ elif operador == '//':
     print(Calculos.quociente(soma))
 elif operador == '%':
     print(Calculos.resto(soma))
-else:
+elif operador == '**':
     print(Calculos.potenciacao(soma))
+else:
+    print("Operador incorreto!! (+,-,*,/,//,%,**)")

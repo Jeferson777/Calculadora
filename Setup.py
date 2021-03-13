@@ -94,7 +94,7 @@ def find_package_data(
     return out
 
 
-PACKAGE = "Calculadora"
+PACKAGE = "calculos"
 NAME = PACKAGE
 DESCRIPTION = "Módulo de calculos simples para calculadora em Python"
 AUTHOR = "Jeferson Soaris"

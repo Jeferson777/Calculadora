@@ -1,0 +1,211 @@
+body{
+margin: 0;
+font: 100% 'Roboto', sans-serif;
+}
+
+h1,h2,h3,p,ul,li,a{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-decoration: none;
+}
+/*--------------------------------*/
+
+
+/*?Layout Geral APP-----------------*/
+    #content_app{
+    max-width: 320px;
+    height: auto;
+    margin: 7% auto;
+    position: relative;
+    clip: rect(0px,320px,540px,0px);
+    overflow: hidden;
+    background-color: rgb(238, 238, 238);
+    border: thin solid #d6d6d6;    
+    }
+/*?Fim------------------------------*/
+
+/*?Margem geral dos displays*/
+    #margin_content{
+    /*padding: 5px 5px 5px 5px;*/
+    }
+/*?Fim-------------------------------*/
+
+/*?Barra topo do APP-----------------*/
+    #top_app{
+    /*background: #007fff;*/
+    }
+    /*?Rótulo app*/
+    #label_app{
+    /*background: rgb(25, 144, 255);*/
+    }
+    #label_app h1{
+    color: rgb(0, 0, 0);
+    font-size: 80%;
+    font-weight: 500;
+    padding: 10px 0 0 10px;
+    }
+
+/*?Botões de ações Windows-----------*/
+    #ctrl_windows{
+    text-align: right;
+    margin-top: -25px;
+    }
+    #ctrl_windows li{
+    display: inline-block;
+    margin-left: -5px;
+    }
+    #ctrl_windows button{
+    width: 40px;
+    height: 30px;
+    border: none;    
+    }
+    #ctrl_windows .minimizar:hover{
+    background: #d6d6d6;
+    color: black; 
+    }
+    #ctrl_windows .maximizar:hover{
+    background: #d6d6d6;
+    color: black; 
+    }
+    #ctrl_windows .fechar:hover{
+    background: red;
+    color: aliceblue;    
+    }
+/*?Fim-------------------------------*/
+
+/*?Barra de Informações e Opções-----*/
+    #info_bar{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background: #dddddd;
+    }
+    #info_bar h2{
+    font-size: 100%;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 5px;    
+    }
+    #info_bar input{
+    display: none;   
+    }
+
+    /*?Caixa Menu mobile*/
+    #box-menu{
+    width: 40px;
+    height: 40px;   
+    border: none;
+    }
+    #box-menu:hover{
+    background: #c6c6c6;
+    }
+/*?Fim--------------------------------*/    
+
+/*?Janela do Menu---------------------*/
+    #menu_bar{
+    position: absolute;
+    background: rgba(187, 187, 187, 0.705) !important;
+    width: 200px;
+    height: 470px;
+    left: -200px;
+    top: 40px;
+    }
+    #menu_bar h2{
+    height: 25px;    
+    font-size: 90%;
+    margin-left: 0px;
+    margin-top: 0 !important;    
+    background: #d6d6d6;
+    }
+    #calculadora li{
+    display: flex;
+    padding: 0 0 0 10px;    
+    }
+    #calculadora a{
+    flex: 100%;    
+    }
+    #calculadora a:hover{
+    background: #d6d6d6;
+    border-left: thin solid 10px orange;    
+    }
+    /*?Criando ação Translate ativando o checked*/
+    input[type="checkbox"]:checked ~ #menu_bar{
+    transform: translateX(200px);
+    transition: all 0.5s;
+    }    
+    input[type="checkbox"] ~ #menu_bar{
+    transform: translateX(-200px);
+    transition: all 0.5s;
+    }
+/*?Fim--------------------------------*/    
+
+/*?Tela de Display--------------------*/
+    #display_lcd{
+    height: 105px;
+    background: #c6c6c6;
+    padding: 0 10px 0 10px;
+    }
+/*?Fim---------------------------------*/
+
+/*?Padrão Geral Conteúdo Teclados------*/
+    #content_keyboard{
+        background: #dddddd;
+        padding: 0 2px 2px;
+        }
+        /*?Padrão Geral Buttons*/
+        #content_keyboard button{
+        border: none;
+        padding: 0px;
+        font-weight: 500;
+        }
+/*?Fim---------------------------------*/
+
+/*?Teclado Topo------------------*/
+    /*Barra de Background*/
+    #keyboard_top{
+    height: 30px;
+    background: aquamarine;
+    display: flex; /*Ajustando elementos no box*/
+    }
+    #keyboard_top li{
+    flex: auto; /*Distribuindo o espeçamento no box*/
+    }
+    #keyboard_top button{
+    height: 30px;
+    width: 100%; /*Preenchendo as larguras*/
+    }
+    #keyboard_top button:hover{
+    background: #d6d6d6;
+    color: rgb(0, 0, 0);        
+    }
+/*?Fim-----------------------------------*/
+
+/*?Teclado Principal-------------------*/
+    .keyboard{
+    display: flex; /*Ajustando elementos no box*/   
+    }
+    .keyboard li{
+    flex: auto; /*Distribuição uniforme no box*/
+    width: 100%; /*Largura da lista de forma uniforme*/
+    border: thin solid #d6d6d6 !important;    
+    }
+    .keyboard button{
+    width: 100%;
+    height: 53px;
+    }
+    .keyboard button:hover{
+    background: #d6d6d6;
+    color: rgb(0, 0, 0);        
+    }
+/*?Fim-----------------------------------*/
+
+/*?Botão Igualdade---------------------------*/
+    #igual{
+    background: rgb(255, 204, 108)!important;    
+    }
+    #igual:hover{
+    background: orange !important;
+    }
+/*?Fim*/
